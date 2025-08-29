@@ -82,9 +82,9 @@ app.post('/bfhl',(req,res)=>{
         const concatString = createConcatenatedString(data);
         const response = {
             "is_success": true,
-            "user_id": "sai_puneeth_balaji_22042005",
-            "email": "saipuneethbalaji@gmail.com",
-            "roll_number": "22BCE1478",
+            "user_id": process.env.USER_ID || "sai_puneeth_balaji_22042005",
+            "email": process.env.EMAIL || "saipuneethbalaji@gmail.com",
+            "roll_number": process.env.ROLL_NUMBER || "22BCE1478",
             "odd_numbers": oddNum,
             "even_numbers": evenNum,
             alphabets,
