@@ -9,7 +9,7 @@
     "dev": "nodemon server.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "Sai Puneeth Balaji",
   "license": "ISC",
   "type": "commonjs",
   "dependencies": {
